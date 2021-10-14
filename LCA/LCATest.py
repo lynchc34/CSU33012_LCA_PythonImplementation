@@ -12,7 +12,7 @@ class TestLCA(unittest.TestCase):
         self.assertEqual(result, None)
 
     def test_BTree(self):
-        # Test LCA statements with provided BT.
+        #Test LCA statements with provided BT.
 
         root = LCA.Node(1)
         root.left = LCA.Node(2)
@@ -29,7 +29,7 @@ class TestLCA(unittest.TestCase):
         self.assertEqual(result2, 1)
 
     def test_lca_node(self):
-        #Test when one of the provided nodes is the LCA.
+        #Test when provided nodes is the LCA.
 
         root = LCA.Node(1)
         root.left = LCA.Node(2)
